@@ -1,62 +1,78 @@
 # Project Title
 
-Simple overview of use/purpose.
+java News Aggregator
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
-
+This project is a Java-based news aggregator application that fetches and displays real-time news articles using the NewsAPI. The application allows users to browse news headlines, select specific articles, and read summaries. It is built with object-oriented programming principles and features a menu-based user interface. The project also includes error handling for API responses.
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Java Development Kit (JDK) 11 or later
+* NewsAPI key (available at https://newsapi.org)
+* Internet connection for fetching news data
+* Git (for version control, optional)
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Clone the repository from GitHub:
+```
+git clone https://github.com/AsalLotfi/Second-Assignment-BreakingNews
+```
+* Navigate to the project directory:
+```
+cd Second-Assignment-BreakingNews
+```
+* Ensure you have Java installed by checking the version:
+```
+java -version
+```
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+To run the application:
+
+Using Command Line Interface (CLI):
 ```
-code blocks for commands
+javac Main.java
+java Main
 ```
+Using an IDE:
+
+* Open the project in an IDE (e.g., IntelliJ IDEA, Eclipse, or VS Code)
+* Run the Main class.
 
 ## Help
 
-Any advise for common problems or issues.
+If the application fails to fetch news, check the following:
+* Ensure the API key is valid and correctly set.
+* Verify the internet connection.
+* Check if NewsAPI has any temporary outages.
+
+If encountering issues with Java compilation, ensure the correct JDK version is installed:
 ```
-command to run if program contains helper info
+java -version 
 ```
 
 ## Authors
 
-Contributors names and contact info
+Asal Lotfi
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+* GitHub: @https://github.com/AsalLotfi
+* Email: asal.army.233@gmail.com
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
-    * Initial Release
+    * Initial release with API integration and CLI-based news browsing
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* NewsAPI for providing news data
+* OpenAI ChatGPT for assistance with documentation and troubleshooting
+* Java programming communities and tutorials for learning resources
